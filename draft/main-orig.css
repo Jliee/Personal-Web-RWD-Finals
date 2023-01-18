@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: #ffeecc;
+    
+}
+
+/* nav bar - header start */
+
+    .nav-container{
+        padding-top: 1%;
+        width: 100%;
+        height: 6vw;
+        background-color: #54cc7c;
+    }
+
+    .nav-button-container{
+        margin: auto;
+        padding-top: 3%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 95%;
+    }
+
+    .mid-nav{
+        margin: -40% 15% 0 15%;
+        width: 7vw;
+    }
+
+    .nav-button{
+        margin: auto;
+        height: 3vw;
+        width: 10vw;
+    }
+
+    .nav-button button{
+        background-color: transparent;
+        border: none;
+        cursor:pointer;
+        overflow: hidden; 
+        width: 100%;
+        height: 100%;
+        
+        padding-top: 10%;
+
+        font-size: 1.5vw;
+        color: black;
+    }
+
+    .nav-button a{
+        text-decoration: none;
+    }
+
+    .nav-button button:hover{
+        color: aliceblue;
+        text-decoration: underline;
+    }
+
+    .mid-nav:hover{
+        width: 8vw;
+    }
+
+    #nav-active{
+        border-top-left-radius: 30%;
+        border-top-right-radius: 30%;
+        font-weight: 500;
+        background-color: #ffeecc;
+    }
+
+/* nav bar - header end */
+
+/* contact bar - footer start*/
+
+.contact-container{
+    background-color: #54cc7c;
+    padding: 2%;;
+    border: 5px solid magenta;
+}
+
+.soc-icons{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.soc-icons img{
+    width: 3vw;
+}
+
+.soc-icons img:hover{
+    width: 4vw;
+}
+
+.email{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+  
+.email a, .email p{
+    font-family: 'Raleway', serif;
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.email a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+

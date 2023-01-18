@@ -1,0 +1,127 @@
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffeecc;
+
+}
+
+/* navbar start */
+
+.topnav {
+  overflow: hidden;
+  background-color: #54cc7c;
+ padding: 1% 1% 0 1%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.topnav a:hover {
+    text-decoration: underline;
+    color: rgb(211, 246, 255);
+}
+
+.topnav a.active {
+    text-decoration: none;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    background-color: #ffeecc;
+    color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width:800px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* nav bar end */
+
+
+/* footer start */
+
+.footer ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+
+    grid-gap: 30px;
+    justify-items: center;
+    margin: auto;
+    /* border: 3px solid black */
+
+  }
+  
+  @media (min-width: 700px) {
+    .footer ul {
+      grid-auto-flow: column;
+
+    }
+  }
+  
+  .footer a {
+    color: rgb(153, 1, 153);
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 rgba(190, 31, 190, 0.306);
+
+  }
+  
+  .footer a:hover {
+    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+    color: rgb(236, 53, 236);
+  }
+  
+  div.footer {
+    display: flex;
+    padding: 1% 0 1% 0;
+    height: 100%;
+    width: 100%;
+    pad: auto;
+    background-color: #54cc7c;
+    line-height: 1.3;
+    font-family: Menlo, monospace;
+  }
+
+  /* li:hover ~ li p {
+    animation: wave-animation 0.3s infinite;
+  }
+  
+  @keyframes wave-animation {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    75% {
+      transform: rotate(-15deg);
+    }
+  } */
