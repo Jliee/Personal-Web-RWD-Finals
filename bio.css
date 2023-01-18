@@ -51,6 +51,32 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+.forda-fersonality-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr
+}
+
+.ffc-a-box{
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+    .ffc-a-box a{
+        color: green;
+        text-decoration: none;
+    }
+
+    .ffc-a-box a:hover{
+        color: rgb(0, 197, 0);
+        text-decoration: underline;
+    }
+
+.forda-fersonality-container img{
+    
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 800px){
     .text-container{
 
