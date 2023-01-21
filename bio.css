@@ -43,7 +43,9 @@ body{
     letter-spacing: 3px;
     line-height: 60px;
     text-align: justify;
-    font-family: 'Parisienne', cursive;
+    /* font-family: 'Parisienne', cursive; */
+    font-family: 'EB Garamond', serif;
+
 
 }
 
